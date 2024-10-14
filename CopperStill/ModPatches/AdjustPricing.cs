@@ -28,6 +28,7 @@ namespace CopperStill.ModPatches {
             if (!IsBalanced.HasValue) {
                 var defaultPrices = new Dictionary<string, int>() {
                     // these are crops we need to reference later for direct price changes
+                    { "Blackberry", 20 },
                     { "Cactus Fruit", 75 },
                     { "Corn", 50 },
                     { "Beet", 100 },
